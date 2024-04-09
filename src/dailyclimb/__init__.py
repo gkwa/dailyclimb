@@ -1,11 +1,11 @@
 import sys
 
-from . import main2
+from . import main2, validate
 
 __project_name__ = "dailyclimb"
 
 
 def main() -> int:
-    out = main2.render_template("extended.j2")
-    sys.stdout.write(out)
+    validate.validate_json()
+
     return 0
