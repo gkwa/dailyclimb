@@ -1,5 +1,10 @@
 # dailyclimb
 
+## Purpose
+
+Learn the workflow for using json schema files.
+
+
 ## Usage
 
 ```bash
