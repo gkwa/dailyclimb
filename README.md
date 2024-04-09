@@ -1,5 +1,10 @@
 # dailyclimb
 
-## Learning jinja2 template inheritance
+## Usage
 
-https://jinja.palletsprojects.com/en/latest/templates/#template-inheritance
+```bash
+cd dailyclimb
+rye sync
+. .venv/bin/activate
+dailyclimb --schema person.schema.json --json person.json
+```
