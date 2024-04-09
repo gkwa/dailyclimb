@@ -1,13 +1,13 @@
 import json
-from jsonschema import validate
 
-with open('person.schema.json') as file:
-   schema = json.load(file)
+import jsonschema
 
-with open('person.json') as file:
-   data = json.load(file)
+with open("person.schema.json") as file:
+    schema = json.load(file)
 
-validate(instance=data, schema=schema)
+with open("person.json") as file:
+    data = json.load(file)
+
+jsonschema.validate(instance=data, schema=schema)
 
 print("JSON data is valid!")
-
