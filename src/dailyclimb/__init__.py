@@ -1,6 +1,4 @@
-import sys
-
-from . import main2, validate
+from . import validate
 
 __project_name__ = "dailyclimb"
 
